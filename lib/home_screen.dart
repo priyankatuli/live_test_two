@@ -42,8 +42,8 @@ class _HomeScreenState extends State<HomeScreen>{
                  ),)
                ],
              ),),
-           Padding(padding: EdgeInsets.only(top:1),
-             child: Wrap(
+
+           Wrap(
                alignment: WrapAlignment.start,
                children: [
                  Text('Messy2312@gmail.com',style: TextStyle(
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen>{
                    fontWeight: FontWeight.w100,
                  ),)
                ],
-             ),),
+             ),
 
            Padding(padding: EdgeInsets.all(10),
              child: Wrap(
